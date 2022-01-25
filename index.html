@@ -23,10 +23,8 @@
     <link rel="manifest" href="app.webmanifest">
 
     <!-- service worker -->
-    <script src="js/load.js" defer></script>
+    <script src="js/load.js"></script>
 
-    <!-- scripts -->
-    <script src="js/counter.js"></script>
     <title>Testing VUE</title>
     <script src="https://unpkg.com/vue@next"></script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -48,10 +46,11 @@
         <button @click="sum('negative', 3)" class="buttons">Decrease</button>
     </div>
     <hr/>
-    <div>
-        <button onclick="install()" id="install">Install</button>
-    </div>
 </div>
 <script src="js/main.js"></script>
+
+<div class="app">
+    <button onclick="install()" id="install">Install</button>
+</div>
 </body>
 </html>

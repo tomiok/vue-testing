@@ -4,7 +4,6 @@ const CACHE_NAME = "v7_counter_app";
 const urlsToCache = [
     "./styles/styles.css",
     "./js/main.js",
-    "./js/counter.js",
     "./img/favicon.png",
     "./img/icon.png"
 ];
