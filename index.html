@@ -16,12 +16,17 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
     <link rel="apple-touch-icon" href="img/favicon.png" type="image/png">
 
+    <!-- apple -->
+    <link rel="apple-touch-startup-image" href="img/favicon.png" type="image/png">
+
     <!-- manifest -->
     <link rel="manifest" href="app.webmanifest">
 
     <!-- service worker -->
-    <script src="js/load.js"></script>
-    <link rel="apple-touch-startup-image" href="img/favicon.png" type="image/png">
+    <script src="js/load.js" defer></script>
+
+    <!-- scripts -->
+    <script src="js/counter.js"></script>
     <title>Testing VUE</title>
     <script src="https://unpkg.com/vue@next"></script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
@@ -41,6 +46,10 @@
     <div>
         <button @click="sum('positive', 2)" class="buttons">Increase</button>
         <button @click="sum('negative', 3)" class="buttons">Decrease</button>
+    </div>
+    <hr/>
+    <div>
+        <button onclick="install()">Install</button>
     </div>
 </div>
 <script src="js/main.js"></script>
