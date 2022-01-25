@@ -1,0 +1,22 @@
+.app {
+    display: block;
+    text-align: center;
+}
+.title {
+    background-color: blanchedalmond;
+}
+.count {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.buttons {
+    background-color: #edff88;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}

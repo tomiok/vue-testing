@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- meta for PWA -->
+    <meta name="theme-color" content="#41b883">
+    <!-- SEO -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+
+    <title>Testing VUE</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div id="app" class="app">
+    <div>
+        <h1 class="title">{{title}}</h1>
+    </div>
+    <div>
+        <h3 class="count">{{count}}</h3>
+    </div>
+
+    <hr/>
+    <div>
+        <button @click="sum('positive', 2)" class="buttons">Increase</button>
+        <button @click="sum('negative', 3)" class="buttons">Decrease</button>
+    </div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
