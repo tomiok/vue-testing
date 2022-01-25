@@ -1,0 +1,19 @@
+{
+  "name": "Vue js counter app",
+  "short_name": "counter app",
+  "description": "This is a test app with some Vue js inside",
+  "background_color": "black",
+  "theme_color": "black",
+  "start_url": "./?umt_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-AR",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "size": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
