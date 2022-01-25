@@ -17,5 +17,6 @@ window.addEventListener("BeforeInstallPromptEvent", event => {
 
 function install() {
     console.log("trying to install")
+    console.log(bipEvent)
     if (bipEvent) bipEvent.prompt("install");
 }
