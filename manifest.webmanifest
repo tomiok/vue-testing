@@ -3,7 +3,7 @@
   "short_name": "vue pwa",
   "description": "Progressive Web App.",
   "icons": [],
-  "start_url": "/vue-test/tomiok/index.html",
+  "start_url": "/vue-testing/tomiok/index.html",
   "display": "fullscreen",
   "theme_color": "#B12A34",
   "background_color": "#B12A34"
