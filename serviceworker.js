@@ -1,5 +1,4 @@
 //SW test-vue
-
 const CACHE_NAME = "v7_counter_app";
 const urlsToCache = [
     "./styles/styles.css",
