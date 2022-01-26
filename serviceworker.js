@@ -4,8 +4,8 @@ const CACHE_NAME = "v7_counter_app";
 const urlsToCache = [
     "./styles/styles.css",
     "./js/main.js",
-    "./img/favicon.png",
-    "./img/icon.png"
+    "./icons/favicon.png",
+    "./icons/icon.png"
 ];
 
 self.addEventListener("install", e => {
